@@ -1,0 +1,50 @@
+CREATE DATABASE PW;
+USE PW;
+CREATE TABLE data_science(
+Student_ID INT NOT NULL PRIMARY KEY,   
+Student_Name VARCHAR(20),
+Student__Last_Name VARCHAR(20),
+Student_Course VARCHAR(20),
+Student_Course_Fee INT,
+Student_Address VARCHAR(20));
+
+INSERT INTO data_science(Student_ID,Student_Name,Student__Last_Name,Student_Course,
+Student_Course_Fee,Student_Address)VALUES(100, 'Rahul', 'Kumar', 'Data Analytics', 3500, 'Patna');
+
+INSERT INTO data_science(Student_ID,Student_Name,Student__Last_Name,Student_Course,
+Student_Course_Fee,Student_Address)VALUES(101, 'Shivan', 'Sharma', 'Data Analytics', 3000, 'Bihar');
+
+INSERT INTO data_science(Student_ID,Student_Name,Student__Last_Name,Student_Course,
+Student_Course_Fee,Student_Address)VALUES(102, 'Shubham', 'Kumar', 'Digital Marketing', 2500, 'Delhi');
+
+INSERT INTO data_science(Student_ID,Student_Name,Student__Last_Name,Student_Course,
+Student_Course_Fee,Student_Address)VALUES(103, 'Kriti', 'Kumari', 'Java', 3500, 'Mumbai');
+
+INSERT INTO data_science(Student_ID,Student_Name,Student__Last_Name,Student_Course,
+Student_Course_Fee,Student_Address)VALUES(104, 'Priya', 'Triphati', 'Data Science', 3500, 'Patna');
+
+SELECT RIGHT('Digital Marketing', 4) as sub_Str;
+
+
+SELECT POSITION('ing' IN 'Digital Marketing') as pos;
+
+SELECT CONCAT('ER. ', Student_Name) as new_name from data_science;
+
+SELECT LOWER(Student_Name) as lower_String from data_science;
+
+SELECT REPLACE('Physics Wallah', 'Physics', 'Course') as course;
+
+
+
+
+
+
+SELECT * FROM data_science;
+
+SELECT FORMAT(Student_Course_Fee, 2) as course_fee from data_science;
+
+SELECT LOCATE('i', Student_Name, 2) as name FROM data_science;
+
+SELECT Mid(Student_Course, 1, 4) as new_Course_name FROM data_science;
+
+SELECT TRIM(LEADING 'D' FROM 'Data_science');
