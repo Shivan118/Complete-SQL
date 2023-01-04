@@ -9,6 +9,7 @@
 |02| SQL Interview prepration |Practice Amazon SQL Interview Question | [Explanation video link](https://www.youtube.com/watch?v=YPkIezvvt9c)
 |03| SQL Interview prepration |Practice Adobe SQL Interview Question | [Explanation video link](https://www.youtube.com/watch?v=UEMRLDJRv00&t=10s)
 |04| SQL Tutorial |Comkplete SQL tutorial in 1 Video | [Explanation video link](https://www.youtube.com/watch?v=TrP481CQ5qo&t=1702s)
+|05| SQL Tutorial |Window Function | [Explanation video link](https://www.youtube.com/watch?v=MCh2tbgOXIE)
 
 
 ## Hackerrank SQl Solution Series
