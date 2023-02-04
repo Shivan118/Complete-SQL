@@ -27,7 +27,7 @@ CREATE TABLE region(
   ,notes  VARCHAR(27)
 );
 
-SELECt * FROM region
+SELECt * FROM region;
 
 -- 1. How many olympics games have been held?
 
@@ -57,7 +57,7 @@ from all_countries
 group by games
 order by games;
 
--- 4. Write a SQL query to return the Olympic Games which had the highest participating countries and the lowest participating countries.
+-- 4 ( last ). Write a SQL query to return the Olympic Games which had the highest participating countries and the lowest participating countries.
 
       with all_countries as
               (select games, nr.region
